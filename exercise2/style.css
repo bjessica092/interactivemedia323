@@ -1,1 +1,8 @@
 style.css
+body {
+	font-family: sans-serif;
+}
+.tableofcontents {
+	background: lightblue;
+    color: white;
+}
