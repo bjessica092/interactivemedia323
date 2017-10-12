@@ -3,6 +3,12 @@ body {
 	font-family: sans-serif;
 }
 .tableofcontents {
+	padding: 20px;
 	background: lightblue;
     color: white;
+}
+p {
+	background: lightblue;
+	color: white;
+	text-decoration: none;
 }
