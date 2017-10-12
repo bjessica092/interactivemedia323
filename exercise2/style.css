@@ -1,4 +1,5 @@
 style.css
+
 body {
 	font-family: sans-serif;
 }
@@ -7,6 +8,7 @@ body {
 	background: lightblue;
     color: white;
     text-decoration: none;
+    width: 30%;
 }
 p {
 	padding: 20px;
@@ -20,4 +22,7 @@ p {
 .adright{
 	float: right;
 	margin-left: 15px;
+}
+a {
+	color: white;
 }
