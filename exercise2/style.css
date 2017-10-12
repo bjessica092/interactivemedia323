@@ -1,51 +1,45 @@
 style.css
-body {
-	color: red;
-}
 
-h4,
-h2,
-h1,
+
+
 a,
 ul,
-p
+p,
+h4,
+h2,
+h1
  {
 	font-family: sans-serif;
+	margin: auto;
+	width: 40%;
 }
 .tableofcontents {
 	padding: 20px;
 	background: lightblue;
     color: white;
     text-decoration: none;
-    width: 40%;
+   
 }
 p,
 ul {
-	padding: 20px;
+	padding: 40px;
 	background: lightblue;
 	color: white;
-	font-size: 14px;
-	width: 40%;
+	font-size: 20px;
 	
 }
-.adleft {
-	float: left;
-}
-.adright{
-	float: right;
-	margin-left: 15px;
-}
+
 a {
 	color: white;
 }
 .title {
 	letter-spacing: 3px;
+	text-transform: uppercase;
+	line-height: 10px;
 }
 ul {
 	text-indent: 10px;
 }
-.intro {
-	width: 100%;
-}
 
-
+img {
+	margin: auto;
