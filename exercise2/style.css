@@ -1,5 +1,7 @@
 style.css
-
+body {
+	color: red;
+}
 h4,
 h2,
 a,
@@ -21,6 +23,7 @@ ul {
 	background: lightblue;
 	color: white;
 	font-size: 14px;
+	width: 30%;
 	
 }
 .adleft {
