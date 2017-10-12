@@ -2,8 +2,10 @@ style.css
 body {
 	color: red;
 }
+
 h4,
 h2,
+h1,
 a,
 ul,
 p
@@ -15,7 +17,7 @@ p
 	background: lightblue;
     color: white;
     text-decoration: none;
-    width: 30%;
+    width: 40%;
 }
 p,
 ul {
@@ -23,7 +25,7 @@ ul {
 	background: lightblue;
 	color: white;
 	font-size: 14px;
-	width: 30%;
+	width: 40%;
 	
 }
 .adleft {
@@ -39,3 +41,11 @@ a {
 .title {
 	letter-spacing: 3px;
 }
+ul {
+	text-indent: 10px;
+}
+.intro {
+	width: 100%;
+}
+
+
