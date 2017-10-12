@@ -1,6 +1,11 @@
 style.css
 
-body {
+h4,
+h2,
+a,
+ul,
+p
+ {
 	font-family: sans-serif;
 }
 .tableofcontents {
