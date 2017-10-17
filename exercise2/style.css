@@ -7,18 +7,23 @@ ul,
 p,
 h4,
 h2,
-h1
- {
+h1 {
 	font-family: sans-serif;
-	margin: auto;
-	width: 40%;
+	max-width: 40%;
+	margin: 0 auto;
+}
+img { 
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+
 }
 .tableofcontents {
 	padding: 20px;
 	background: lightblue;
     color: white;
     text-decoration: none;
-   
+    text-align: center;
 }
 p,
 ul {
@@ -35,11 +40,16 @@ a {
 .title {
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	line-height: 10px;
+	line-height: 30px;
+
 }
 ul {
 	text-indent: 10px;
 }
-
-img {
-	margin: auto;
+h4 {
+	font-style: italic;
+	font-size: 25px;
+}
+h2 {
+	font-weight: bold;
+}
