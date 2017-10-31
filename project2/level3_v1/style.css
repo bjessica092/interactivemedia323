@@ -1,0 +1,19 @@
+style.css
+
+
+#divfornoreasontestingcss {
+	position:relative;
+	width: 0px;
+}
+
+.body {
+	position: relative;
+	left: 20%;
+}
+.header {
+	position: fixed;
+	height: 60px;
+	width: 100px;
+	top: 40%;
+	right: 85%;
+}
