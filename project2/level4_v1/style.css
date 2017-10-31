@@ -1,0 +1,90 @@
+style.css
+body {
+	margin: 0;
+}
+
+.body {
+	position: relative;
+	display: block;
+	text-align: center;
+	left: 50%;
+}
+#hope {
+	font-family: Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+h2 {
+	display: inline;
+}
+
+#is {
+	font-size: 50px;
+	letter-spacing: 5px;
+	font-family: Papyrus, sans-serif;
+}
+#perches {
+	font-family: Garamond, Georgia, serif;
+
+}
+
+#soul {
+	font-family: Helvetica, sans-serif;
+}
+#sings {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#sweetest {
+	font-family: Verdana, sans-serif;
+}
+#gale {
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+#sore {
+	font-weight: bold;
+}
+#abash {
+	line-height: 60px;
+	font-size: 100px;
+}
+#bird {
+	font-family: Helvetica, sans-serif;
+	font-style: italic;
+}
+#warm {
+	text-transform: uppercase;
+}
+#heard {
+	font-family: Verdana;
+	letter-spacing: 30px;
+}
+#land {
+	font-style: italic;
+	font-weight: bold;
+}
+#never {
+	text-transform: uppercase;
+	font-size: 50px;
+}
+#hyphen {
+	font-weight: bolder;
+	font-size: 40px;
+}
+#extremity {
+	font-style: italic;
+	font-family: Papyrus, sans-serif;
+}
+#crumb {
+	font-size: 120px;
+	font-family: Helvetica, sans-serif;
+	line-height: 10px;
+}
+
+
+
+
+
+
+
