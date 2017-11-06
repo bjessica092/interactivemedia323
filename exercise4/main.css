@@ -12,6 +12,10 @@ body {
 	margin: 100px auto;
 	background: white;
 	position: relative;
+
+}
+#second {
+	z-index: 2;
 }
 #mouse-pad {
 	position: absolute;
