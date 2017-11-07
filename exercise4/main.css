@@ -4,6 +4,7 @@
 
 body {
 	background: black;
+	height: 100%;
 }
 
 .canvas {
@@ -94,7 +95,6 @@ body {
 	border-radius: 100px / 50px;
 	z-index: 4;
 	transform: rotate(90deg);
-	z-index: 1;
 }
 #apple-gradient {
 	background: indianred; /* For browsers that do not support gradients */
@@ -110,4 +110,106 @@ body {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+}
+#bottle {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 150px;
+	height: 400px;
+	background: darkblue;
+    z-index: 3;
+    background: -webkit-gradient (linear, darkblue, purple);
+    background: -o-linear-gradient (darkblue, purple);
+    background: -moz-linear-gradient (darkblue, purple);
+    background: linear-gradient (darkblue, purple); 
+    transform: skewY(20deg);
+}
+#cap {
+	position: absolute;
+	bottom: 350px;
+	width: 150px;
+	height: 100px;
+	background-color: black;
+	z-index: 4;
+	-moz-border-radius: 150px / 75px;
+	-webkit-border-radius: 150px / 75px;
+	border-radius: 150px / 75px;
+}
+#spout {
+	position: absolute;
+	bottom: 400px;
+	left: 30px;
+	width: 0;
+	height: 0;
+	border-bottom: 60px solid grey;
+	border-right: 100px solid transparent;
+	z-index: 6;
+}
+#bottom {
+	position: absolute;
+	top: 335px;
+	width: 150px;
+	height: 100px;
+	background-color: darkblue;
+	z-index: 4;
+	-moz-border-radius: 150px / 75px;
+	-webkit-border-radius: 150px / 75px;
+	border-radius: 150px / 75px;
+}
+#handle {
+	position: absolute;
+	bottom: 400px;
+	left: 115px;
+	width: 125px;
+	height: 60px;
+	transform: rotate(-40deg);
+	background-color: black;
+	z-index: 4;
+	-moz-border-radius: 150px / 75px;
+	-webkit-border-radius: 150px / 75px;
+	border-radius: 150px / 75px;
+}
+#pen {
+	position: absolute;
+	transform: rotate(-30deg);
+	top: 300px;
+	width: 400px;
+	height: 40px;
+	background: magenta;
+	-moz-border-radius: 150px / 75px;
+	-webkit-border-radius: 150px / 75px;
+	border-radius: 150px / 75px;
+	border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    border-top-left-radius:20%;
+    border-top-right-radius:20%;
+}
+#pen-tip {
+	position: absolute;
+	left: -9px;
+	top: 6px;
+	width: 30px;
+	height: 25px;
+	background: rebeccapurple;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	z-index: 4;
+	transform: rotate(90deg);
+}
+#shadow {
+	position: absolute;
+	left: 400px;
+	top: 150px;
+	width: 150px;
+	height: 400px;
+	background: grey;
+    z-index: 1;
+    background: -webkit-gradient (linear, darkblue, purple);
+    background: -o-linear-gradient (darkblue, purple);
+    background: -moz-linear-gradient (darkblue, purple);
+    background: linear-gradient (darkblue, purple); 
+    transform: skewY(20deg);
+    transform: rotate(40deg);
 }
