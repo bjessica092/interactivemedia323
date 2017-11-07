@@ -1,6 +1,7 @@
 style.css
 body {
 	margin: 0;
+	background: black;
 }
 .line {
 	font-size: 100px;
@@ -13,7 +14,7 @@ body {
 	
   	animation-timing-function: ease;
   	animation-name: flash;
-  	color: orangered;
+  	color: aqua;
   	animation-duration: 1s;
   	animation-fill-mode: both;
 }
@@ -42,4 +43,5 @@ p {
 #one {
 	top: 30%;
 	left: 30%;
+	background: black
 }
