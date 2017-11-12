@@ -1,0 +1,139 @@
+style.css
+
+body {
+	margin: 0 auto;
+}
+h1 {
+	font-family: cursive;
+	font-size: 120px;
+	display: block;
+}
+.poem {
+	margin-left: 15%;
+	display: block;
+}
+
+/*animations*/
+#one {
+	animation-delay: 2s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#two {
+	animation-delay: 4s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#three {
+	animation-delay: 6s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#four {
+	animation-delay: 8s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#five {
+	animation-delay: 10s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#six {
+	animation-delay: 12s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#seven {
+	animation-delay: 14s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#eight {
+	animation-delay: 16s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#nine {
+	animation-delay: 18s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#ten {
+	animation-delay: 20s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#eleven {
+	animation-delay: 22s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+#twelve {
+	animation-delay: 24s;
+	animation-name: rollOut;
+	animation-duration: 4s;
+  	animation-fill-mode: forwards;
+  	animation-direction: forwards;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-out;
+}
+
+
+@keyframes rollOut {
+  from {
+    opacity: 1;
+    color: rgba(0,46,2,1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    color: rgba(82,142,255,1);
+  }
+
+}
