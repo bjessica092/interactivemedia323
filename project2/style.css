@@ -6,9 +6,9 @@ body {
 }
 
 p.dedication {
-	position: relative;
+	position: absolute;
 	left: 80%;
-	top: 10%;
+	top: 8%;
 	color: grey;
 	font-family: Helvetica, Arial, sans-serif;
 	letter-spacing: 10px;
@@ -47,32 +47,53 @@ p.poem-author {
 /*hover-reveal*/
 #l1-container {
 	opacity: 0;
-	transition: 3s ease-in-out 6s;
+	transition: 1s ease-in-out 6s;
+
 }
-.v1:hover > #l1-container{
+#prompt1:hover > #l1-container{
 	opacity: 1;
 	display: block;
-	transition: 3s;
+	transition: 1s;
 }
 
 #l2-container {
 	opacity: 0;
-	transition: 3s ease-in-out 6s;
+	transition: 1s ease-in-out 6s;
 }
-.v1:hover > #l2-container{
+#prompt2:hover > #l2-container{
 	opacity: 1;
 	display: block;
-	transition: 3s;
+	transition: 1s;
 }
 
 #l3-container {
 	opacity: 0;
-	transition: 3s ease-in-out 6s;
+	transition: 1s ease-in-out 6s;
 }
-.v1:hover > #l3-container{
+#prompt3:hover > #l3-container{
 	opacity: 1;
 	display: block;
-	transition: 3s;
+	transition: 1s;
+}
+
+#l4-container {
+	opacity: 0;
+	transition: 1s ease-in-out 6s;
+}
+#prompt4:hover > #l4-container{
+	opacity: 1;
+	display: block;
+	transition: 1s;
+}
+
+#l5-container {
+	opacity: 0;
+	transition: 1s ease-in-out 6s;
+}
+#prompt5:hover > #l5-container{
+	opacity: 1;
+	display: block;
+	transition: 1s;
 }
 
 /*circles*/
@@ -118,98 +139,150 @@ p.poem-author {
 }
 
 /*all level 1 buttons*/
+#prompt1 {
+	position: absolute;
+	left: 33%;
+	top: 47%;
+	background-color: none;
+	width: 5%;
+	height: 10%;
+	z-index: 1;
+}
 #v1-l1 {
 	position: absolute;
 	left: 35%;
 	top: 50%;
+	z-index: 2;
 }
 #v2-l1 {
 	position: absolute;
-	right: 280%;
-	bottom: 130%;
+	right: 120%;
+	bottom: 87%;
 }
 #v3-l1 {
 	position: absolute;
-	right: 800%;
-	bottom: 400%;
+	right: 266%;
+	bottom: 133%;
 }
 #v4-l1 {
 	position: absolute;
-	right: 1550%;
-	bottom: 500%;
+	right: 420%;
+	bottom: 150%;
 
 }
 #v5-l1 {
 	position: absolute;
-	right: 2300%;
-	bottom: 250%;
+	right: 580%;
+	bottom: 63%;
 
 }
 
 /*all level 2 buttons*/
 
+#prompt2 {
+	position: absolute;
+	left: 36%;
+	top: 60%;
+	background-color: none;
+	width: 5%;
+	height: 10%;
+	z-index: 1;
+}
 #v1-l2 {
 	position: absolute;
 	left: 38%;
 	top: 63%;
+	z-index: 2;
 }
 #v2-l2 {
 	position: absolute;
-	right: 280%;
-	bottom: 115%;
+	right: 186%;
+	bottom: 76%;
 }
 #v3-l2 {
 	position: absolute;
-	right: 800%;
-	bottom: 300%;
+	right: 266%;
+	bottom: 100%;
 }
 #v4-l2 {
 	position: absolute;
-	right: 1350%;
-	bottom: 400%;
+	right: 450%;
+	bottom: 123%;
 
 }
 #v5-l2 {
 	position: absolute;
-	right: 2100%;
-	bottom: 250%;
+	right: 700%;
+	bottom: 83%;
 }
 
 /*all level 3 buttons*/
+#prompt3 {
+	position: relative;
+	left: 34%;
+	top: 57%;
+	background-color: none;
+	width: 5%;
+	height: 10%;
+	z-index: 1;
+}
 #v1-l3 {
 	position: absolute;
 	left: 35%;
 	top: 75%;
+	z-index: 2;
 }
 #v2-l3 {
 	position: absolute;
-	right: 280%;
-	bottom: 130%;
+	right: 186%;
+	bottom: 86%;
 }
 #v3-l3 {
 	position: absolute;
-	right: 800%;
-	bottom: 300%;
+	right: 266%;
+	bottom: 100%;
 }
 #v4-l3 {
 	position: absolute;
-	right: 1600%;
-	bottom: 300%;
-
+	right: 375%;
+	bottom: 100%;
 }
 #v5-l3 {
 	position: absolute;
-	right: 2400%;
-	bottom: 20%;
+	right: 600%;
+	bottom: 70%;
 }
-/*
+
+/*all level 4 buttons*/
+#prompt4 {
+	position: absolute;
+	right: 57%;
+	bottom: 39%;
+	background-color: none;
+	width: 5%;
+	height: 9%;
+	z-index: 1;
+}
 #v1-l4 {
 	position: absolute;
-	left: 37%;
-	top: 68%;
+	left: 39%;
+	top: 56%;
+	z-index: 2;
+}
+
+/*all level 5 buttons*/
+#prompt5 {
+	position: absolute;
+	left: 39%;
+	top: 69%;
+	background-color: none;
+	width: 5%;
+	height: 10%;
+	z-index: 1;
 }
 #v1-l5 {
 	position: absolute;
 	left: 40%;
 	top: 72%;
-}*/
+	z-index: 2;
+}
