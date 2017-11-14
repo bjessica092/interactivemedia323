@@ -1,0 +1,55 @@
+style.css
+
+body {
+	margin: 0;
+	width: 100%;
+}
+.home {
+	position: relative;
+	top: 0.5em;
+	height: 1.5em;
+	width: 1.5em;
+	transform: rotate(45deg);
+	background: lightblue;
+	display: block;
+	margin: 0 auto;
+}
+.left {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	background: lightblue;
+	left: 4em;
+	bottom: 95%;
+	display: block;
+
+}
+.right {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	right: 4em;
+	float: right;
+	bottom: 95%;
+	background: lightblue;	
+	display: block;
+
+
+}
+h1 {
+	text-transform: uppercase;
+	font-family: 'Slabo 27px', serif;
+	line-height: 250%;
+	letter-spacing: 160px;
+	word-spacing: -160px;
+	font-size: 80px;
+	text-align: center;
+}
+#soul {
+	position: fixed;
+	top: 70%;
+	left: 15%;
+	display: inline-block;
+}

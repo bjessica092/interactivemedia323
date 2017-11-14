@@ -1,0 +1,86 @@
+style.css
+body {
+	
+
+}
+.home {
+	position: relative;
+	top: 0.5em;
+	height: 1.5em;
+	width: 1.5em;
+	transform: rotate(45deg);
+	background: lightblue;
+	display: block;
+	margin: 0 auto;
+}
+.left {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	background: lightblue;
+	left: 4em;
+	bottom: 95%;
+	display: block;
+
+}
+.right {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	right: 4em;
+	float: right;
+	bottom: 95%;
+	background: lightblue;	
+	display: block;
+
+
+}
+.bigger {
+	font-size: 1500%;
+
+}
+.big {
+	font-size: 600%;
+}
+.big, .bigger {
+	text-transform: uppercase;
+}
+#container {
+	display: block;
+	padding-top: 200px;
+	padding-bottom: 800px;
+	padding-right: 200px;
+	padding-left: 200px;
+	margin-left: auto;
+	
+}
+p {
+	line-height: 200px;
+	font-family: Garamond, Times New Roman, serif;
+}
+#line1 {
+	position: relative;
+	left: 200px;
+}
+#line2 {
+	position: relative;
+	left: 400px;
+}
+#line3 {
+	position: relative;
+	left: 300px;
+}
+#line4 {
+	position: relative;
+	left: 900px;
+}
+#line5 {
+	position: relative;
+	left: -50px;
+}
+#line6 {
+	position: relative;
+	left: 950px;
+}

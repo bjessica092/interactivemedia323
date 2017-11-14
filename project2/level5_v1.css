@@ -1,0 +1,80 @@
+style.css
+body {
+	margin: 0;
+	background: black;
+}
+.home {
+	position: relative;
+	top: 0.5em;
+	height: 1.5em;
+	width: 1.5em;
+	transform: rotate(45deg);
+	background: lightblue;
+	display: block;
+	margin: 0 auto;
+}
+.left {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	background: lightblue;
+	left: 4em;
+	bottom: 95%;
+	display: block;
+
+}
+.right {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	right: 4em;
+	float: right;
+	bottom: 95%;
+	background: lightblue;	
+	display: block;
+
+
+}
+.line {
+	font-size: 100px;
+	font-family: Georgia, Times New Roman, serif;
+	font-style: italic;
+	line-height: 250%;
+	color: grey;
+}
+.line:hover {
+	
+  	animation-timing-function: ease;
+  	animation-name: flash;
+  	color: aqua;
+  	animation-duration: 1s;
+  	animation-fill-mode: both;
+}
+
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation-name: flash;
+}
+
+p {
+	display: inline-block;
+	transform: rotate(40deg);
+	padding: 60px;
+	text-align: right;
+}
+#one {
+
+	background: black
+}

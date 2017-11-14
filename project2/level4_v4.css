@@ -1,0 +1,54 @@
+style.css
+
+body {
+	height: 100%;
+	margin: 0;
+}
+.home {
+	position: relative;
+	top: 0.5em;
+	height: 1.5em;
+	width: 1.5em;
+	transform: rotate(45deg);
+	background: lightblue;
+	display: block;
+	margin: 0 auto;
+}
+.left {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	background: lightblue;
+	left: 4em;
+	bottom: 95%;
+	display: block;
+
+}
+.right {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	right: 4em;
+	float: right;
+	bottom: 95%;
+	background: lightblue;	
+	display: block;
+
+
+}
+p {
+	font-size: 50px;
+	font-family: Impact, sans-serif;
+	line-height: 200%;
+}
+.one {
+	letter-spacing: 60px;
+}
+.two {
+	letter-spacing: 10px;
+}
+.three {
+	letter-spacing: -4px;
+}

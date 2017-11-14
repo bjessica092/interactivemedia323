@@ -1,0 +1,70 @@
+style.css
+
+.nothing {
+	position:absolute;
+	height: 0px;
+}
+.home {
+	position: relative;
+	top: 0.5em;
+	height: 1.5em;
+	width: 1.5em;
+	transform: rotate(45deg);
+	background: lightblue;
+	display: block;
+	margin: 0 auto;
+}
+.left {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	background: lightblue;
+	left: 4em;
+	bottom: 95%;
+	display: block;
+
+}
+.right {
+	position: absolute;
+		top: 0.5em;
+	height: 0.75em;
+	width: 1.5em;
+	right: 4em;
+	float: right;
+	bottom: 95%;
+	background: lightblue;	
+	display: block;
+
+
+}
+#stanza1 {
+	position: relative;
+	border: 10px solid lightblue;
+	padding: 10px;
+	display: inline-block;
+	float: left;
+	top: 200px;
+	clear: both;
+}
+
+#stanza2 {
+	position: relative;
+	border: 10px solid lightblue;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120px;
+	top: 200px;
+}
+
+#stanza3 {
+	position: relative;
+	border: 10px solid lightblue;
+	padding: 10px;
+	display: inline-block;
+	bottom: 20px;
+	float: right;
+	clear: both;
+}
