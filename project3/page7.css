@@ -1,0 +1,55 @@
+style.css
+
+body {
+	margin-left: 0;
+	text-align: center;
+}
+#cover-image {
+	display: block;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#box-one-left {
+	width: 15em;
+	height: 15em;
+	border-radius: 7.5em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1175px;
+	left: 130px;
+}
+
+#box-one-right {
+	width: 18em;
+	height: 18em;
+	border-radius: 9em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 250px;
+	left: 1950px;
+}
+#box-two-right {
+	width: 16em;
+	height: 16em;
+	border-radius: 8em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 200px;
+	left: 1400px;
+}
+#page-corner {
+	width: 5em;
+	height: 5em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1400px;
+	left: 1900px;
+
+}
