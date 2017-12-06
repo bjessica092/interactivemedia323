@@ -1,3 +1,9 @@
+style.css
+body {
+	margin: 0;
+	text-transform: none;
+	text-align: center;
+}
 
 #cover-image {
 	display: block;
@@ -6,14 +12,12 @@
 	margin: 0 auto;
 	text-align: center;
 }
-
 #page-corner {
 	width: 5em;
 	height: 5em;
 	background: none;
 	z-index: 1;
 	position: absolute;
-	top: 1320px;
-	left: 1870px;
-
+	top: 1250px;
+	left: 1860px;
 }

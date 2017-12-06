@@ -1,0 +1,101 @@
+style.css
+body {
+	margin: 0;
+	text-transform: none;
+	text-align: center;
+}
+
+style.css
+
+body {
+	margin-left: 0;
+	text-align: center;
+}
+#cover-image {
+	display: block;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#box-one-left {
+	width: 15em;
+	height: 15em;
+	border-radius: 7.5em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1000px;
+	left: 270px;
+}
+#box-two-left {
+	width: 16em;
+	height: 24em;
+	border-radius: 9em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1250px;
+	left: 380px;
+}
+#box-three-left {
+	width: 19em;
+	height: 19em;
+	border-radius: 9.5em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1400px;
+	left: 900px;
+}
+#box-one-right {
+	width: 18em;
+	height: 20em;
+	border-radius: 6em / 13em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 180px;
+	left: 1890px;
+}
+#box-two-right {
+	width: 16em;
+	height: 16em;
+	border-radius: 8em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 120px;
+	left: 1220px;
+}
+#box-three-right {
+	width: 18em;
+	height: 18em;
+	border-radius: 9em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 460px;
+	left: 2150px;
+}
+#box-four-right {
+	width: 18em;
+	height: 18em;
+	border-radius: 9em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 5px;
+	left: 1650px;
+}
+#page-corner {
+	width: 5em;
+	height: 5em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1370px;
+	left: 1960px;
+
+}

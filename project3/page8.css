@@ -1,6 +1,14 @@
 style.css
 body {
+	margin: 0;
+	text-transform: none;
+}
+
+style.css
+
+body {
 	margin-left: 0;
+	text-align: center;
 }
 #cover-image {
 	display: block;
@@ -17,10 +25,19 @@ body {
 	background: none;
 	z-index: 1;
 	position: absolute;
-	top: 1175px;
-	left: 420px;
+	top: 1000px;
+	left: 450px;
 }
-
+#box-two-left {
+	width: 17em;
+	height: 17em;
+	border-radius: 8.5em;
+	background: none;
+	z-index: 1;
+	position: absolute;
+	top: 1300px;
+	left: 550px;
+}
 #box-one-right {
 	width: 18em;
 	height: 18em;
@@ -29,7 +46,18 @@ body {
 	z-index: 1;
 	position: absolute;
 	top: 250px;
-	left: 1950px;
+	left: 2100px;
+}
+#box-two-right {
+	width: 14em;
+	height: 14em;
+	border-radius: 7em;
+	background: none;
+	z-index: 1;
+	position: none;
+	position: absolute;
+	top: 250px;
+	left: 1700px;
 }
 #page-corner {
 	width: 5em;
@@ -37,7 +65,7 @@ body {
 	background: none;
 	z-index: 1;
 	position: absolute;
-	top: 1240px;
-	left: 1920px;
+	top: 1300px;
+	left: 1950px;
 
 }

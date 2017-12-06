@@ -1,0 +1,11 @@
+style.css
+body {
+	text-align: center;
+}
+#cover-image {
+	display: block;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	margin: 0 auto;
+	text-align: center;
+}
