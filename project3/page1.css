@@ -6,35 +6,19 @@
 	margin: 0 auto;
 	text-align: center;
 }
-
-#box-one-left {
-	width: 15em;
-	height: 15em;
-	border-radius: 7.5em;
-	background: none;
-	z-index: 1;
-	position: absolute;
-	top: 1175px;
-	left: 420px;
-}
-
-#box-one-right {
-	width: 18em;
-	height: 18em;
-	border-radius: 9em;
-	background: none;
-	z-index: 1;
-	position: absolute;
-	top: 250px;
-	left: 1950px;
-}
 #page-corner {
 	width: 5em;
 	height: 5em;
 	background: none;
 	z-index: 1;
 	position: absolute;
-	top: 1300px;
-	left: 1870px;
+	top: 1280px;
+	left: 1900px;
 
+}
+#gif {
+	position: absolute;
+	left: 1825px;
+	top: 1225px;
+	background-color: none;
 }
