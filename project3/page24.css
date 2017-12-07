@@ -31,8 +31,8 @@ body {
 	z-index: 1;
 	position: absolute;
 	transform: rotate(-30deg);
-	top: 1300px;
-	left: 580px;
+	top: 1250px;
+	left: 680px;
 }
 #box-three-left {
 	width: 19em;
@@ -42,7 +42,7 @@ body {
 	z-index: 1;
 	position: absolute;
 	top: 1400px;
-	left: 1100px;
+	left: 1200px;
 }
 #box-four-left {
 	width: 16em;
@@ -133,6 +133,6 @@ body {
 	background: none;
 	z-index: 1;
 	position: absolute;
-	top: 1280px;
-	left: 1900px;
+	top: 1260px;
+	left: 1950px;
 }

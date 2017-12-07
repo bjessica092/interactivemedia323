@@ -22,14 +22,14 @@ body {
 }
 
 #box-one-right {
-	width: 18em;
-	height: 18em;
-	border-radius: 9em;
+	width: 22em;
+	height: 22em;
+	border-radius: 11em;
 	background: none;
 	z-index: 1;
 	position: absolute;
-	top: 250px;
-	left: 1950px;
+	top: 65px;
+	left: 1900px;
 }
 #page-corner {
 	width: 5em;
