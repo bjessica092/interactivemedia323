@@ -26,11 +26,11 @@ h2, p {
 	display: inline-block;
 	color: teal;
 	position: fixed;
-	bottom: 50px;
+	bottom: 70px;
 	left: 80px;
 	text-align: center;
 }
 p {
 	font-size: 20px;
-	bottom: 20px;
+	bottom: 30px;
 }
