@@ -22,15 +22,15 @@
 	top: 1225px;
 	background-color: none;
 }
-h2, p {
+h4, p {
 	display: inline-block;
 	color: teal;
 	position: fixed;
-	bottom: 70px;
+	top: 70px;
 	left: 80px;
 	text-align: center;
 }
 p {
-	font-size: 20px;
-	bottom: 30px;
+	font-size: 15px;
+	top: 40px;
 }
