@@ -28,4 +28,9 @@ body {
 	bottom: 30px;
 	z-index: 2;
 	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+#link:visited {
+	color: white;
 }
