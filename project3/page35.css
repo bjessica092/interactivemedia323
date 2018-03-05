@@ -22,3 +22,10 @@ body {
 	top: 1280px;
 	left: 1960px;
 }
+#link {
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	z-index: 2;
+	font-size: 30px;
+}
